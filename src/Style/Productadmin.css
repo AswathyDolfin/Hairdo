@@ -1,0 +1,34 @@
+.Prod{
+    padding-top: 10px;
+    border: 5px solid black;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 20px;
+     background-color:rgb(223, 248, 248);
+}
+.Prodd{
+    padding-top: 10px;
+    border: 5px solid black;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 20px;
+}
+.add
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    margin-left: 100px;
+    margin-right: 10px;
+
+}
+.type{
+    width:350px ;
+    height: 25px;
+    margin-left: 20px;
+  }
+  

@@ -1,0 +1,288 @@
+.topnav {
+  overflow: hidden;
+  height: 100px;
+  border-radius: 8px;
+  width: 1473px;
+  background-color: #130202;
+  font-weight: 500;
+  position: fixed;
+  z-index: 1
+}
+
+.logo {
+  position: absolute;
+  top: -30px;
+  float: right;
+  font-size: 46px;
+  color: white;
+  left: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topnavcat {
+  color: white;
+  margin-top: 35px;
+  margin-right: 135px;
+  margin-left: 400px;
+  background-color: #04AA6D;
+  width: 50px;
+  display: flex;
+  gap: 80px;
+
+}
+
+.cat1 {
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  width: 137px;
+  height: 45px;
+  font-size: 19px;
+}
+
+.searchcontainer {
+  margin-top: -30px;
+  margin-left: 850px;
+  width: 250px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.search {
+  font-size: 17px;
+  width: 200px;
+  border-radius: 10px;
+  height: 23px;
+  background-color: aliceblue;
+}
+
+.sbtn {
+  background: aliceblue;
+  font-size: 17px;
+  cursor: pointer;
+  color: black;
+  border-radius: 50px;
+  margin-left: -35px;
+  border: none;
+}
+
+.sbtn:hover {
+  background: rgb(232, 229, 229);
+}
+
+.topnav a {
+  color: white;
+  font-size: 25px;
+}
+
+.topnavicon {
+  margin-left: 1155px;
+  margin-top: -31px;
+}
+
+.c {
+  margin-right: 20px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.l{
+  margin-left: 0px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.logi {
+  margin-left: 100px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.topnav a:hover {
+  color: rgb(129, 125, 125);
+}
+
+.dis2 {
+  padding-top: 50px;
+  height: 500px;
+  width: 1400px;
+  position: relative;
+  margin-top: 100px;
+  margin-right: 73px;
+}
+
+.display {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.dis1 {
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  color: #130202;
+}
+
+.btn1 {
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #130202;
+}
+
+.btn1:hover {
+  color: rgb(129, 125, 125);
+}
+
+.bar1 {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.fp {
+  font-size:56px;
+  margin-bottom: 30px;
+  font-family: monospace;
+  
+}
+
+.imagecat {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 109px;
+}
+
+.img {
+  width: 275px;
+  height: 275px;
+  border-radius: 50px;
+  border: 5px solid black;
+}
+
+.container {
+  position: relative;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 9px;
+  border-radius: 40px;
+}
+
+.btn2 {
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.btn2:hover {
+  color: rgb(129, 125, 125);
+}
+
+.text {
+  text-align: center;
+}
+
+.tex1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
+.tex2 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 0.1px;
+}
+
+.lastimg {
+  position: relative;
+  padding-top: 100px;
+}
+
+.last {
+  height: 400px;
+  width: 1000px;
+  border-radius: 20px;
+  margin-right: 300px;
+  border: 8px solid rgb(228, 153, 153);
+}
+
+.he {
+  position: absolute;
+  top: 25%;
+  left: 80%;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 80px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.bottomnav {
+  color: white;
+  background-color: #130202;
+  height: 350px;
+  width: 1473px;
+  border-radius: 8px;
+}
+
+.bn1 {
+  width: 500px;
+  height: 200px;
+  margin-top: -436px;
+}
+
+.logo1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 36px;
+  margin-top: 240px;
+}
+
+.para {
+  color: white;
+  height: 200px;
+  margin-left: 600px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  width: 700px;
+  padding-top: 100px;
+}
+
+.PIC{
+  overflow: auto;
+  white-space: nowrap;
+  /* width: 500px; */
+}
