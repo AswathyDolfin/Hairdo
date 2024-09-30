@@ -82,6 +82,7 @@ function Curly() {
               <button className='ca' onClick={() => addtoCartprd(data)}>{
                 cartprd.includes(data) ? "ALREADY IN CART" : "ADD TO CART"
               }</button>
+      
             </div>
           </div>
         ))}
