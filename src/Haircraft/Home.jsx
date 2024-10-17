@@ -29,7 +29,7 @@ function Hom() {
   function login() {
     nav("/log")
   }
-  const { prod, logUser, setLogUser, cartprd, likeprd,setLikeprd,setCartprd } = useContext(Mycontext)
+  const  { prod, logUser, setLogUser, cartprd, likeprd,setLikeprd,setCartprd } = useContext(Mycontext)
 
   const [selectCat, setSelectCat] = useState("")
 
