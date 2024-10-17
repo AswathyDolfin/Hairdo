@@ -1,4 +1,4 @@
-import { Mycontext } from "../components/Mycontext";
+import { Mycontext } from "./Mycontext";
 import { useContext } from "react";
 import { FaHome } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa6";

@@ -4,7 +4,7 @@ import { BsFillCartFill } from "react-icons/bs";
 import { FaHome } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
-import { Mycontext } from "../components/Mycontext";
+import { Mycontext } from "./Mycontext";
 import { useContext } from "react";
 import { useState } from "react";
 

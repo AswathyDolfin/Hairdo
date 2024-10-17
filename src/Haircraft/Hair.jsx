@@ -1,4 +1,4 @@
-import { Mycontext } from "../components/Mycontext"
+import { Mycontext } from "./Mycontext"
 import { useParams } from "react-router-dom"
 import { useContext } from "react"
 import { BsFillCartFill } from "react-icons/bs";

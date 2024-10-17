@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Mycontext } from '../components/Mycontext';
+import { Mycontext } from './Mycontext';
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { FaHome } from "react-icons/fa";

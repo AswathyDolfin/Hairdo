@@ -9,7 +9,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { useState } from 'react';
 import { useContext } from 'react';
-import { Mycontext } from '../components/Mycontext';
+import { Mycontext } from './Mycontext';
 import { Link } from 'react-router-dom';
 import { IoLogOutSharp } from "react-icons/io5";
 import { GrUserAdmin } from "react-icons/gr";
@@ -28,9 +28,6 @@ function Hom() {
   }
   function login() {
     nav("/log")
-  }
-  function adm() {
-    nav("/adlgn")
   }
   const { prod, logUser, setLogUser, cartprd, likeprd,setLikeprd,setCartprd } = useContext(Mycontext)
 
@@ -111,7 +108,6 @@ function Hom() {
               <Link to={'/log'}><b><FaUser /></b></Link>
             )}
           </button>
-          <button className='c' onClick={adm}><GrUserAdmin /></button>
         </div>
       </div>
       <div className="display">

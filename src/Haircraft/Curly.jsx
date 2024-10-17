@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { Mycontext } from "../components/Mycontext"
+import { Mycontext } from "./Mycontext"
 import { FaHeart } from "react-icons/fa6";
 import { BsFillCartFill } from "react-icons/bs";
 import { FaHome } from "react-icons/fa";
